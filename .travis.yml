@@ -4,11 +4,11 @@ php:
 	- 7.4.3
 	
 before_install:
-	- travis_retry composer self-update
-	- travis_retry composer validate --no-check-publish
+    - travis_retry composer self-update
+    - travis_retry composer validate --no-check-publish
 	
 install:	
-	- travis_retry composer install	--no-interaction
+    - travis_retry composer install	--no-interaction
 	
 script:
-	- vendor/bin/phpunit	
+    - vendor/bin/phpunit	
