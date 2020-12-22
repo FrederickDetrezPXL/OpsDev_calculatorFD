@@ -20,7 +20,7 @@ script:
 notifications:
   webhooks:
     urls:
-    - $MYWEBHOOK/travis-ci.php
+    - $MYWEBHOOK/travisci
     on_success: always
     on_failure: always
     on_start: never
